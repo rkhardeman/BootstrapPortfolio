@@ -57,6 +57,10 @@ footer{
 	margin-top:25px;
 }
 
+.bottomBuffer{
+	padding-bottom:15px;
+}
+
 .appExamples {
   position: relative;
   float: left;
