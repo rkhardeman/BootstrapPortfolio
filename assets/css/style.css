@@ -2,6 +2,18 @@ body{
 	background-image: url("../images/background.png");
 }
 
+.navbar-default .navbar-brand {
+  	background-color: #4aaaa5;
+  	color:white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+ 	background-color:#4aaaa5;
+  	color:white;
+}
+
+
 .main{
 	background:white;
 	margin-top:75px;
@@ -27,6 +39,7 @@ h2{
 	height:60px;
 }
 
+
 footer{
 	background:#666666;
 	outline-color:orange;
@@ -35,3 +48,40 @@ footer{
 	color:white;
 }
 
+
+
+
+/*Portfolio Page*/
+
+.topBuffer{
+	margin-top:25px;
+}
+
+.appExamples {
+  position: relative;
+  float: left;
+  width: auto;
+  overflow: auto;
+  margin-left:75px;
+}
+
+.appExamples img {
+  width: 145px;
+  height:145px;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.appExamples h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 145px;
+  padding: 5px;
+  margin-bottom: 0;
+  font-weight: 200;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
